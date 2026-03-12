@@ -21,7 +21,7 @@ def exibir_cabecalho():
     print("=" * 40)
 
 def main():
-    limpar_tela()
+    limpar_tela() 
     exibir_cabecalho()
     
     nome_aluno = input("\nNome do Aluno: ").strip()
